@@ -1,0 +1,44 @@
+{
+	"python.analysis.autoFormatStrings": true,
+	"editor.formatOnSave": true,
+	"[python]": {
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.formatOnType": true,
+		"editor.wordBasedSuggestions": "off",
+		"editor.defaultFormatter": "ms-python.black-formatter",
+		"editor.formatOnSave": true,
+		"editor.rulers": [
+			88
+		],
+	},
+	"black-formatter.args": [
+		"--line-length",
+		"88"
+	],
+	"cSpell.enabled": true,
+	"cSpell.language": "en",
+	"cSpell.userWords": [
+		"pyenv",
+		"formatter",
+		"Prettier"
+	],
+	"cSpell.showAutocompleteSuggestions": true,
+	"cSpell.autoFormatConfigFile": true,
+	"cSpell.ignoreWords": [
+		"numpy",
+		"pandas",
+		"scikit",
+		"tensorflow",
+		"pytorch",
+		"pytorchvideo",
+		"torchvision",
+		"imageio",
+		"dtype",
+		"mimsave",
+		"unnormalize",
+		"kargs",
+		"astype",
+		"ndarray"
+	],
+	"git.ignoreLimitWarning": true,
+}
