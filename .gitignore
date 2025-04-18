@@ -1,4 +1,5 @@
 # Project specific
+output/
 outputs/
 logs/
 trained_models/
